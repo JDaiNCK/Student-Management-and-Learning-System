@@ -25,7 +25,7 @@
       </font></Label>
    <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="ID Email" style="-fx-background-radius: 12;" />
    <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Password" style="-fx-background-radius: 12;" translateY="-10.0" />
-   <Hyperlink id="Link" fx:id="ForgotPass" depthTest="ENABLE" onAction="#ForgotPass" text="Forgot Password?" translateX="98.0" translateY="12.0">
+   <Hyperlink fx:id="ForgotPass" depthTest="ENABLE" onAction="#ForgotPass" text="Forgot Password?" translateX="98.0" translateY="12.0">
       <font>
          <Font name="Inter Regular" size="11.0" />
       </font>
@@ -36,7 +36,7 @@
          <Cursor fx:constant="DEFAULT" />
       </cursor>
    </Hyperlink>
-   <Hyperlink id="Link" fx:id="CreateAcc" onAction="#CreateAcc" text="Create Account" translateX="-104.0" translateY="-4.0">
+   <Hyperlink fx:id="CreateAcc" onAction="#CreateAcc" text="Create Account" translateX="-104.0" translateY="-4.0">
       <font>
          <Font name="Inter Regular" size="11.0" />
       </font>

@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
 public class SMISController {
+
     @FXML
     private Label welcomeText;
 
@@ -17,6 +18,5 @@ public class SMISController {
     }
     @FXML
     protected void CreateAcc() {
-        welcomeText.setText("Opaw si Farz");
-    }
+        welcomeText.setText("Bayot si JanJan");    }
 }
