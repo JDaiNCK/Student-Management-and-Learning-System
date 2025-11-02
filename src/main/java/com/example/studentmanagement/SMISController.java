@@ -1,22 +1,44 @@
 package com.example.studentmanagement;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
+
+import javafx.scene.Node;
+import javafx.scene.input.MouseEvent;
+import javafx.event.ActionEvent;
+import java.io.IOException;
 
 public class SMISController {
 
-    @FXML
-    private Label welcomeText;
 
     @FXML
-    protected void Login() {
-        welcomeText.setText("Welcome User");
+    public void Login(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(SMISApplication.class.getResource("SMISHome.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setTitle("Home");
+        stage.setScene(scene);
+        stage.show();
     }
     @FXML
-    protected void ForgotPass() {
-        welcomeText.setText("Bayot si JanJan");
+    public void ForgotPass(MouseEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(SMISApplication.class.getResource("SMISForgotPass.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setTitle("Forgot Password");
+        stage.setScene(scene);
+        stage.show();
     }
     @FXML
-    protected void CreateAcc() {
-        welcomeText.setText("Bayot si JanJan");    }
+    public void Register(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(SMISApplication.class.getResource("SMIS.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setTitle("Login");
+        stage.setScene(scene);
+        stage.show();
+    }
 }

@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 
-<VBox id="WindowDesign" fx:id="Window" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <TextField />
-      <TextField />
-      <TextField />
-      <TextField id="Textbox" />
-   </children>
+<VBox id="WindowDesign" alignment="CENTER" prefHeight="440.0" prefWidth="670.0" spacing="20.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.SMISController">
+
+      <Label text="Create Account" translateY="40.0">
+          <font>
+              <Font name="Inter Semi Bold" size="20.0" />
+          </font>
+      </Label>
+      <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="ID Email" style="-fx-background-radius: 12;" translateY="30.0" />
+      <PasswordField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Passowrd" style="-fx-background-radius: 12;" translateY="20.0" />
+   <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Last Name" style="-fx-background-radius: 12;" translateY="10.0" />
+   <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="First Name" style="-fx-background-radius: 12;" />
+      <Button fx:id="Button" alignment="CENTER" onAction="#Login" prefHeight="23.0" prefWidth="135.0" style="-fx-background-color: #850D16; -fx-background-radius: 16;" text="Create Account" textFill="WHITE" translateX="75.0" translateY="-10.0">
+          <font>
+              <Font name="Inter Semi Bold" size="12.0" />
+          </font>
+          <effect>
+              <DropShadow blurType="ONE_PASS_BOX" height="10.0" offsetY="2.0" radius="4.75" width="11.0">
+                  <color>
+                      <Color opacity="0.25" />
+                  </color>
+              </DropShadow>
+          </effect>
+          <opaqueInsets>
+              <Insets />
+          </opaqueInsets>
+      </Button>
+   <Button fx:id="Button1" alignment="CENTER" onAction="#Login" prefHeight="23.0" prefWidth="135.0" style="-fx-background-color: #850D16; -fx-background-radius: 16;" text="Have an Account?" textFill="WHITE" translateX="-75.0" translateY="-53.0">
+      <font>
+         <Font name="Inter Semi Bold" size="12.0" />
+      </font>
+      <effect>
+         <DropShadow blurType="ONE_PASS_BOX" height="10.0" offsetY="2.0" radius="4.75" width="11.0">
+            <color>
+               <Color opacity="0.25" />
+            </color>
+         </DropShadow>
+      </effect>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </Button>
 </VBox>
