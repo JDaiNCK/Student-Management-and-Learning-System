@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.SMISController">
+   <children>
+      <BorderPane VBox.vgrow="ALWAYS">
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <ToolBar nodeOrientation="LEFT_TO_RIGHT" prefHeight="55.0" prefWidth="670.0" style="-fx-background-color: D5D5D5;" BorderPane.alignment="CENTER">
+              <items>
+                <Button mnemonicParsing="false" text="Lamat ha" translateX="5.0" />
+                  <VBox alignment="CENTER" maxHeight="-Infinity" prefHeight="38.0" prefWidth="575.0">
+                     <children>
+                        <Label prefHeight="23.0" prefWidth="542.0" text="Subject Name (Section year)">
+                           <font>
+                              <Font name="Inter Semi Bold" size="18.0" />
+                           </font></Label>
+                        <Label layoutX="10.0" layoutY="10.0" prefHeight="15.0" prefWidth="540.0" text="Subject name and Department">
+                           <font>
+                              <Font name="Inter Regular" size="12.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+              </items>
+               <effect>
+                  <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </ToolBar>
+         </top></BorderPane>
+   </children>
+</VBox>
