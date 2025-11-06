@@ -15,7 +15,10 @@
          <top>
             <ToolBar nodeOrientation="LEFT_TO_RIGHT" prefHeight="55.0" prefWidth="670.0" style="-fx-background-color: D5D5D5;" BorderPane.alignment="CENTER">
               <items>
-                <Button mnemonicParsing="false" text="Lamat ha" translateX="5.0" />
+                <Button alignment="CENTER" mnemonicParsing="false" style="-fx-background-insets: 10; -fx-background-color: D5D5D5;" text="☰" translateX="5.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
                   <VBox alignment="CENTER" maxHeight="-Infinity" prefHeight="38.0" prefWidth="575.0">
                      <children>
                         <Label prefHeight="23.0" prefWidth="542.0" text="Subject Name (Section year)">

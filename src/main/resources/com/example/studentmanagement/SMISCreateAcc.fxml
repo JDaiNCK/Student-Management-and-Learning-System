@@ -20,7 +20,7 @@
    <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="First Name" style="-fx-background-radius: 12;" />
    <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="313.0" translateY="-16.0">
       <children>
-            <Button fx:id="Button" alignment="CENTER" onAction="#Login" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" text="Create Account" textFill="WHITE" translateX="-10.0">
+            <Button fx:id="Button" alignment="CENTER" onAction="#Back" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" text="Create Account" textFill="WHITE" translateX="-10.0">
                 <font>
                     <Font name="Inter Semi Bold" size="12.0" />
                 </font>
@@ -35,7 +35,7 @@
                     <Insets />
                 </opaqueInsets>
             </Button>
-         <Button fx:id="Button1" alignment="CENTER" onAction="#HaveAcc" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" text="Have an Account?" textFill="WHITE" translateX="10.0">
+         <Button fx:id="Button1" alignment="CENTER" onAction="#Back" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" text="Have an Account?" textFill="WHITE" translateX="10.0">
             <font>
                <Font name="Inter Semi Bold" size="12.0" />
             </font>

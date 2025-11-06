@@ -55,7 +55,7 @@
                         </Label>
                     </items>
                     <effect>
-                        <DropShadow height="10.5" radius="4.875" width="11.0">
+                        <DropShadow height="10.75" offsetY="2.0" radius="4.9375" width="11.0">
                             <color>
                                 <Color opacity="0.25" />
                             </color>

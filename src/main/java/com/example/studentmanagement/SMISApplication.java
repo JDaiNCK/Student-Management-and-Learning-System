@@ -11,7 +11,7 @@ public class SMISApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(SMISApplication.class.getResource("SMIS.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
         stage.setTitle("Student Management and Information System");
         stage.setScene(scene);
         stage.show();
