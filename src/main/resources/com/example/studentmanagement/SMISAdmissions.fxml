@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.studentmanagement.SMISController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.SMISController">
+    <children>
+        <BorderPane prefHeight="440.0" prefWidth="670.0" VBox.vgrow="ALWAYS">
+            <top>
+                <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="670.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="52.0" style="-fx-background-insets: 10; -fx-background-color: #E3E3E3;" text="←" translateX="10.0">
+                            <font>
+                                <Font name="Inter Semi Bold" size="18.0" />
+                            </font></Button>
+                        <VBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="583.0" translateX="21.0">
+                            <children>
+                                <Label text="Label">
+                                    <font>
+                                        <Font name="Inter Semi Bold" size="18.0" />
+                                    </font></Label>
+                                <Label text="Label">
+                                    <font>
+                                        <Font name="Inter Regular" size="12.0" />
+                                    </font></Label>
+                            </children></VBox>
+                    </children>
+                </HBox>
+            </top>
+        </BorderPane>
+    </children>
+</VBox>
