@@ -7,7 +7,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox id="WindowDesign" fx:id="Window" alignment="CENTER" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.SMISController">
+<VBox id="WindowDesign" fx:id="Window" alignment="CENTER" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.LoginSMIS">
 
     <Label text="Welcome!">
       <font>

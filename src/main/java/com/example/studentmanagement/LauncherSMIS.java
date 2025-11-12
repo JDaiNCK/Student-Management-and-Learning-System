@@ -2,8 +2,8 @@ package com.example.studentmanagement;
 
 import javafx.application.Application;
 
-public class Launcher {
+public class LauncherSMIS {
     public static void main(String[] args) {
-        Application.launch(SMISApplication.class, args);
+        Application.launch(ApplicationSMIS.class, args);
     }
 }

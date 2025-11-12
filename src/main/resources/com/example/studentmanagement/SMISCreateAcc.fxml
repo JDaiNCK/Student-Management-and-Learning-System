@@ -7,7 +7,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox id="WindowDesign" alignment="CENTER" prefHeight="440.0" prefWidth="628.0" snapToPixel="false" spacing="20.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.SMISController">
+<VBox id="WindowDesign" alignment="CENTER" prefHeight="440.0" prefWidth="628.0" snapToPixel="false" spacing="20.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.LoginSMIS">
 
       <Label text="Create Account" translateY="40.0">
           <font>

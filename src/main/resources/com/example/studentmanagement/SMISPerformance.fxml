@@ -4,13 +4,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.SMISController">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.HomeSMIS">
     <children>
         <BorderPane prefHeight="440.0" prefWidth="670.0" VBox.vgrow="ALWAYS">
             <top>
                 <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="670.0" BorderPane.alignment="CENTER">
                     <children>
-                        <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="52.0" style="-fx-background-insets: 10; -fx-background-color: #E3E3E3;" text="←" translateX="10.0">
+                        <Button mnemonicParsing="false" onAction="#BackHome" prefHeight="36.0" prefWidth="52.0" style="-fx-background-insets: 10; -fx-background-color: #E3E3E3;" text="←" translateX="10.0">
                             <font>
                                 <Font name="Inter Semi Bold" size="18.0" />
                             </font></Button>
@@ -28,6 +28,19 @@
                     </children>
                 </HBox>
             </top>
+            <center>
+                <TableView editable="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="320.0" prefWidth="634.0" translateY="10.0" BorderPane.alignment="CENTER">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="Subject" />
+                        <TableColumn prefWidth="75.0" text="Section" />
+                        <TableColumn prefWidth="75.0" text="Grade" />
+                        <TableColumn prefWidth="75.0" text="Status" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+            </center>
         </BorderPane>
     </children>
 </VBox>

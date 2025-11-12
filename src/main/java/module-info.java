@@ -9,6 +9,7 @@ module com.example.studentmanagement {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires javafx.graphics;
+    requires javafx.base;
 
     opens com.example.studentmanagement to javafx.fxml;
     exports com.example.studentmanagement;
