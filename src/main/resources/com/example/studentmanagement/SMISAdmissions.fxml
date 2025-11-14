@@ -10,13 +10,13 @@
             <top>
                 <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="670.0" BorderPane.alignment="CENTER">
                     <children>
-                        <Button mnemonicParsing="false" onAction="#BackHome" prefHeight="36.0" prefWidth="52.0" style="-fx-background-insets: 10; -fx-background-color: #E3E3E3;" text="←" translateX="10.0">
+                        <Button mnemonicParsing="false" onAction="#BackHome" prefHeight="36.0" prefWidth="52.0" style="-fx-background-insets: 10; -fx-background-color: #E3E3E3;" styleClass="backbtn" stylesheets="@SMISStyle.css" text="←" translateX="10.0">
                             <font>
                                 <Font name="Inter Semi Bold" size="18.0" />
                             </font></Button>
                         <VBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="583.0" translateX="21.0">
                             <children>
-                                <Label text="Label">
+                                <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Label">
                                     <font>
                                         <Font name="Inter Semi Bold" size="18.0" />
                                     </font></Label>

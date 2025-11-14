@@ -6,7 +6,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.LoginSMIS">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.FunctionsSMIS">
    <children>
       <BorderPane VBox.vgrow="ALWAYS">
          <center>
@@ -15,7 +15,7 @@
          <top>
             <ToolBar nodeOrientation="LEFT_TO_RIGHT" prefHeight="55.0" prefWidth="670.0" style="-fx-background-color: D5D5D5;" BorderPane.alignment="CENTER">
               <items>
-                <Button alignment="CENTER" mnemonicParsing="false" style="-fx-background-insets: 10; -fx-background-color: D5D5D5;" text="☰" translateX="5.0">
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#viewoptions" style="-fx-background-insets: 10; -fx-background-color: D5D5D5;" text="☰" translateX="5.0">
                      <font>
                         <Font size="18.0" />
                      </font></Button>

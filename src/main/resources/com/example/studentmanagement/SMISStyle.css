@@ -8,3 +8,16 @@
     -fx-font-weight: bold;
 }
 
+.HomePage {
+    -fx-font-family: "Inter";
+    -fx-font-weight: bold;
+}
+
+.backbtn {
+    -fx-font-weight: bold;
+}
+
+.Label2 {
+    -fx-font-family: "Inter";
+}
+

@@ -8,7 +8,7 @@
 
 <VBox id="WindowDesign" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.LoginSMIS">
    <children>
-      <Label text="Forgot Password">
+      <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Forgot Password" translateY="-5.0">
          <font>
             <Font name="Inter Semi Bold" size="20.0" />
          </font>
@@ -19,7 +19,7 @@
             <Font name="Inter Regular" size="10.0" />
          </font>
       </Label>
-      <Button mnemonicParsing="false" onAction="#Back" prefHeight="23.0" prefWidth="130.0" style="-fx-background-radius: 16; -fx-background-color: #850D16;" text="Send Email" textFill="WHITE" translateX="85.0" translateY="-8.0">
+      <Button mnemonicParsing="false" onAction="#Back" prefHeight="23.0" prefWidth="130.0" style="-fx-background-radius: 16; -fx-background-color: #850D16;" styleClass="Login-SignIn-Color" text="Send Email" textFill="WHITE" translateX="85.0" translateY="-8.0">
          <font>
             <Font name="Inter Semi Bold" size="12.0" />
          </font>

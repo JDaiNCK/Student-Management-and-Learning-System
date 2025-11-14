@@ -24,7 +24,7 @@ public class HomeSMIS {
     @FXML
     public void SubEnroll(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISSubsEnrolled.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Subjects Enrolled");
         stage.setScene(scene);
@@ -33,7 +33,7 @@ public class HomeSMIS {
     @FXML
     public void Performance(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISPerformance.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Performance");
         stage.setScene(scene);
