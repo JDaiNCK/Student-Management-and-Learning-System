@@ -9,7 +9,7 @@
 
 <VBox id="WindowDesign" fx:id="Window" alignment="CENTER" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.LoginSMIS">
 
-    <Label text="Welcome!">
+    <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Welcome!">
       <font>
          <Font name="Inter Semi Bold" size="20.0" />
       </font>
