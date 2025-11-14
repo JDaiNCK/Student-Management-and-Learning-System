@@ -12,6 +12,7 @@ public class ApplicationSMIS extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMIS.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
         stage.setTitle("Student Management and Information System");
         stage.setScene(scene);
         stage.show();
