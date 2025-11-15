@@ -15,7 +15,7 @@ public class LoginSMIS {
     @FXML
     public void Login(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISHome.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Home");
@@ -25,7 +25,7 @@ public class LoginSMIS {
     @FXML
     public void ForgotPass(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISForgotPass.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Forgot Password");
@@ -35,7 +35,7 @@ public class LoginSMIS {
     @FXML
     public void Register(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISCreateAcc.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Create Account");
@@ -44,7 +44,7 @@ public class LoginSMIS {
     }
     public void LogAgain(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMIS.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Login");
@@ -54,7 +54,7 @@ public class LoginSMIS {
     @FXML
     public void Back(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMIS.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1080, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
         scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Login");
