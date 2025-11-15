@@ -14,7 +14,7 @@
          <Font name="Inter Semi Bold" size="20.0" />
       </font>
    </Label>
-   <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="ID Email" style="-fx-background-radius: 12;" translateY="10.0" />
+   <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Password" style="-fx-background-radius: 12;" translateY="10.0" />
    <HBox alignment="CENTER" prefHeight="28.0" prefWidth="670.0">
       <children>
          <Label onMouseClicked="#Register" text="Create Account" translateX="-75.0" translateY="4.0">

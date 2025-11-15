@@ -2,7 +2,10 @@
 
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
 <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="670.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.HomeSMIS">
@@ -20,11 +23,11 @@
                      </HBox.margin></Button>
                   <VBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="583.0" translateX="21.0" HBox.hgrow="ALWAYS">
                      <children>
-                        <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Label">
+                        <Label styleClass="Label" stylesheets="@SMISStyle.css" text="ENROLLED SY-TERM: 2025-2026-1ST SEM ">
                            <font>
                               <Font name="Inter Semi Bold" size="18.0" />
                            </font></Label>
-                        <Label styleClass="Label2" stylesheets="@SMISStyle.css" text="Label">
+                        <Label styleClass="Label2" stylesheets="@SMISStyle.css" text="Student Profile">
                            <font>
                               <Font name="Inter Regular" size="12.0" />
                            </font></Label>
@@ -32,6 +35,80 @@
                </children>
             </HBox>
          </top>
+         <center>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="370.0" prefWidth="311.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Icon/user.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="25.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="175.0" prefWidth="290.0" style="-fx-background-radius: 20; -fx-background-color: EAEAEA;" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: D5D5D5; -fx-background-radius: 0;" VBox.vgrow="ALWAYS">
+                                 <items>
+                                    <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Student's Info" />
+                                 </items>
+                              </ToolBar>
+                              <Label text="Label" />
+                           </children>
+                           <effect>
+                              <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
+                                 <color>
+                                    <Color opacity="0.25" />
+                                 </color>
+                              </DropShadow>
+                           </effect></VBox>
+                     </children></VBox>
+                  <VBox alignment="CENTER" maxWidth="-Infinity" prefHeight="370.0" prefWidth="357.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="160.0" prefWidth="290.0" style="-fx-background-radius: 20; -fx-background-color: EAEAEA;" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: D5D5D5; -fx-background-radius: 0;" VBox.vgrow="ALWAYS">
+                                 <items>
+                                    <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Student's Description" />
+                                 </items>
+                              </ToolBar>
+                           </children>
+                           <effect>
+                              <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
+                                 <color>
+                                    <Color opacity="0.25" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox layoutX="68.0" layoutY="101.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="160.0" prefWidth="290.0" style="-fx-background-radius: 20; -fx-background-color: EAEAEA;" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: D5D5D5; -fx-background-radius: 0;" VBox.vgrow="ALWAYS">
+                                 <items>
+                                    <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Student Course Application" />
+                                 </items>
+                              </ToolBar>
+                           </children>
+                           <effect>
+                              <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
+                                 <color>
+                                    <Color opacity="0.25" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </VBox>
+                     </children></VBox>
+               </children>
+            </HBox>
+         </center>
       </BorderPane>
    </children>
 </VBox>

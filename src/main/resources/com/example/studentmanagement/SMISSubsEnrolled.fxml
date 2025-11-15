@@ -16,11 +16,11 @@
                             </font></Button>
                         <VBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="583.0" translateX="21.0" HBox.hgrow="ALWAYS">
                             <children>
-                                <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Label">
+                                <Label styleClass="Label" stylesheets="@SMISStyle.css" text="ENROLLED SY-TERM: 2025-2026-1ST SEM ">
                                     <font>
                                         <Font name="Inter Semi Bold" size="18.0" />
                                     </font></Label>
-                                <Label text="Label">
+                                <Label text="MAXIMUM UNITS FOR THIS SEMESTER : 26.0">
                                     <font>
                                         <Font name="Inter Regular" size="12.0" />
                                     </font></Label>

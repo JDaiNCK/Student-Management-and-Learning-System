@@ -3,6 +3,7 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
@@ -53,6 +54,11 @@
                         <Font name="Inter Semi Bold" size="11.0" />
                      </font>
                         </Label>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#Profile" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icon/user.png" />
+                     </image>
+                  </ImageView>
                     </items>
                     <effect>
                         <DropShadow height="10.75" offsetY="2.0" radius="4.9375" width="11.0">

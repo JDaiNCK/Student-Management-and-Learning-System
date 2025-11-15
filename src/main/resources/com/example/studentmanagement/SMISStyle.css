@@ -21,3 +21,8 @@
     -fx-font-family: "Inter";
 }
 
+.MaterialTitle {
+    -fx-font-family: "Inter";
+    -fx-font-weight: bold;
+}
+
