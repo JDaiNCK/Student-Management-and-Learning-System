@@ -28,6 +28,7 @@ public class LoginSMIS {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Create Account");
         stage.setScene(scene);
+        stage.centerOnScreen();
         stage.show();
     }
 
