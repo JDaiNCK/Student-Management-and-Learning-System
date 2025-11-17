@@ -14,7 +14,7 @@
               <Font name="Inter Semi Bold" size="20.0" />
           </font>
       </Label>
-      <TextField fx:id="IDEmail" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="ID Email" style="-fx-background-radius: 12;" translateY="30.0" />
+      <TextField fx:id="IDEmail" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Student ID" style="-fx-background-radius: 12;" translateY="30.0" />
       <PasswordField fx:id="Password" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Password" style="-fx-background-radius: 12;" translateY="20.0" />
    <TextField fx:id="LastName" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Last Name" style="-fx-background-radius: 12;" translateY="10.0" />
    <TextField fx:id="FirstName" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="First Name" style="-fx-background-radius: 12;" />
