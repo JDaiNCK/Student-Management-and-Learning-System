@@ -12,7 +12,15 @@ import java.io.IOException;
 
 public class HomeSMIS {
 
-
+    @FXML
+    public void ClickedSub(MouseEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISSubjectView.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setTitle("Student's Profile");
+        stage.setScene(scene);
+        stage.show();
+    }
     @FXML
     public void Profile(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISProfile.fxml"));

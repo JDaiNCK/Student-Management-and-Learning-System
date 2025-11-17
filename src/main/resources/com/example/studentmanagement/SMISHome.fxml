@@ -74,7 +74,7 @@
                <children>
                   <HBox alignment="CENTER" prefHeight="191.0" prefWidth="670.0">
                      <children>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#ClickedSub" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets right="50.0" />
                            </HBox.margin>
@@ -86,7 +86,7 @@
                               </DropShadow>
                            </effect>
                         </Pane>
-                        <Pane layoutX="276.0" layoutY="19.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
+                        <Pane layoutX="276.0" layoutY="19.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#ClickedSub" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets />
                            </HBox.margin>
@@ -98,7 +98,7 @@
                               </DropShadow>
                            </effect>
                         </Pane>
-                        <Pane layoutX="345.0" layoutY="19.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
+                        <Pane layoutX="345.0" layoutY="19.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#ClickedSub" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets left="50.0" />
                            </HBox.margin>
@@ -114,7 +114,7 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="191.0" prefWidth="670.0" VBox.vgrow="ALWAYS">
                      <children>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#ClickedSub" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets right="50.0" />
                            </HBox.margin>
@@ -126,7 +126,7 @@
                               </DropShadow>
                            </effect>
                         </Pane>
-                        <Pane layoutX="276.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
+                        <Pane layoutX="276.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#ClickedSub" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
                            <effect>
                               <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
                                  <color>
@@ -135,7 +135,7 @@
                               </DropShadow>
                            </effect>
                         </Pane>
-                        <Pane layoutX="205.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
+                        <Pane layoutX="205.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#ClickedSub" prefHeight="165.0" prefWidth="140.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 25;" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets left="50.0" />
                            </HBox.margin>
