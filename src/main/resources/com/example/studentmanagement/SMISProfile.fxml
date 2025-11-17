@@ -55,7 +55,6 @@
                                     <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Student's Info" />
                                  </items>
                               </ToolBar>
-                              <Label text="Label" />
                            </children>
                            <effect>
                               <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
@@ -74,7 +73,6 @@
                                     <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Student's Description" />
                                  </items>
                               </ToolBar>
-                              <Label text="Label" />
                            </children>
                            <effect>
                               <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
@@ -94,7 +92,6 @@
                                     <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Student Course Application" />
                                  </items>
                               </ToolBar>
-                              <Label text="Label" />
                            </children>
                            <effect>
                               <DropShadow height="10.0" offsetY="2.0" radius="4.75" width="11.0">
