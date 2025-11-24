@@ -55,7 +55,7 @@ public class SignInSignUpSMIS {
             }
         }
 
-        String userId = "U" + System.currentTimeMillis();
+        String userId = "" + System.currentTimeMillis();
         User newUser = new User(userId, email, firstName, lastName, password);
         UsersData.userList.add(newUser);
 
@@ -133,17 +133,6 @@ public class SignInSignUpSMIS {
         stage.setTitle("Create Account");
         stage.setScene(scene);
         stage.centerOnScreen();
-        stage.show();
-    }
-
-    @FXML
-    public void Login(ActionEvent event) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISHome.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
-        scene.getStylesheets().add(ApplicationSMIS.class.getResource("SMISstyle.css").toExternalForm());
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setTitle("Home");
-        stage.setScene(scene);
         stage.show();
     }
 
