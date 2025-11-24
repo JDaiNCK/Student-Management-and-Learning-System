@@ -11,6 +11,7 @@ module com.example.studentmanagement {
     requires javafx.graphics;
     requires javafx.base;
 
+
     opens com.example.studentmanagement to javafx.fxml;
     exports com.example.studentmanagement;
 }

@@ -7,20 +7,20 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox id="WindowDesign" alignment="CENTER" prefHeight="440.0" prefWidth="628.0" snapToPixel="false" spacing="20.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.LoginSMIS">
+<VBox id="WindowDesign" alignment="CENTER" prefHeight="440.0" prefWidth="628.0" snapToPixel="false" spacing="20.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagement.CreateAccountController">
 
       <Label styleClass="Label" stylesheets="@SMISStyle.css" text="Create Account" translateY="40.0">
           <font>
               <Font name="Inter Semi Bold" size="20.0" />
           </font>
       </Label>
-      <TextField fx:id="IDEmail" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Student ID" style="-fx-background-radius: 12;" translateY="30.0" />
-      <PasswordField fx:id="Password" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Password" style="-fx-background-radius: 12;" translateY="20.0" />
-   <TextField fx:id="LastName" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Last Name" style="-fx-background-radius: 12;" translateY="10.0" />
-   <TextField fx:id="FirstName" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="First Name" style="-fx-background-radius: 12;" />
+      <TextField fx:id="studentIdField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Student ID" style="-fx-background-radius: 12;" translateY="30.0" />
+      <PasswordField fx:id="passwordField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Password" style="-fx-background-radius: 12;" translateY="20.0" />
+   <TextField fx:id="lastNameField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="Last Name" style="-fx-background-radius: 12;" translateY="10.0" />
+   <TextField fx:id="firstNameField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="First Name" style="-fx-background-radius: 12;" />
    <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="313.0" translateY="-10.0">
       <children>
-            <Button fx:id="AddAccount" alignment="CENTER" onAction="#Back" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" styleClass="Login-SignIn-Color" stylesheets="@SMISStyle.css" text="Create Account" textFill="WHITE">
+            <Button fx:id="AddAccount" alignment="CENTER" onAction="#handleCreateAccount" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" styleClass="Login-SignIn-Color" stylesheets="@SMISStyle.css" text="Create Account" textFill="WHITE">
                 <font>
                     <Font name="Inter Semi Bold" size="12.0" />
                 </font>
@@ -38,7 +38,7 @@
                <Insets right="10.0" />
             </HBox.margin>
             </Button>
-         <Button alignment="CENTER" onAction="#Back" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" styleClass="Login-SignIn-Color" stylesheets="@SMISStyle.css" text="Have an Account?" textFill="WHITE">
+         <Button alignment="CENTER" onAction="#handleHaveAccount" prefHeight="23.0" prefWidth="135.0" snapToPixel="false" style="-fx-background-color: #850D16; -fx-background-radius: 16;" styleClass="Login-SignIn-Color" stylesheets="@SMISStyle.css" text="Have an Account?" textFill="WHITE">
             <font>
                <Font name="Inter Semi Bold" size="12.0" />
             </font>

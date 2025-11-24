@@ -13,7 +13,7 @@
             <Font name="Inter Semi Bold" size="20.0" />
          </font>
       </Label>
-      <TextField maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="ID Email" style="-fx-background-radius: 12;" />
+      <TextField fx:id="studentId" maxWidth="-Infinity" prefHeight="26.0" prefWidth="300.0" promptText="ID Email" style="-fx-background-radius: 12;" />
       <Label alignment="CENTER" onMouseClicked="#LogAgain" text="Login Again" translateX="-115.0">
          <font>
             <Font name="Inter Regular" size="10.0" />

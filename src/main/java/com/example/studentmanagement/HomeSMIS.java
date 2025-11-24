@@ -15,7 +15,7 @@ public class HomeSMIS {
     @FXML
     public void ClickedSub(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISSubjectView.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Student's Profile");
         stage.setScene(scene);
@@ -24,7 +24,7 @@ public class HomeSMIS {
     @FXML
     public void Profile(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISProfile.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Student's Profile");
         stage.setScene(scene);
@@ -33,7 +33,7 @@ public class HomeSMIS {
     @FXML
     public void Logout(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMIS.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Login");
         stage.setScene(scene);
@@ -42,7 +42,7 @@ public class HomeSMIS {
     @FXML
     public void SubEnroll(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISSubsEnrolled.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Subjects Enrolled");
         stage.setScene(scene);
@@ -51,7 +51,7 @@ public class HomeSMIS {
     @FXML
     public void Performance(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISPerformance.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Performance");
         stage.setScene(scene);
@@ -60,7 +60,7 @@ public class HomeSMIS {
     @FXML
     public void Admissions(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISAdmissions.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("School's Admissions");
         stage.setScene(scene);
@@ -68,8 +68,8 @@ public class HomeSMIS {
     }
     @FXML
     public void Messages(MouseEvent event) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource(""));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISMessages.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Chat");
         stage.setScene(scene);
@@ -78,7 +78,7 @@ public class HomeSMIS {
     @FXML
     public void BackHome(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationSMIS.class.getResource("SMISHome.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 670, 440);
+        Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle("Home");
         stage.setScene(scene);
